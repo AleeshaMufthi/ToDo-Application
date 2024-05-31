@@ -1,0 +1,43 @@
+/* Center the title */
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
+  /* Make the product cards consistent in height */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  /* Style the buttons and quantity area */
+.quantity-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .card-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+  }
+
+  .quantity-btn {
+    margin: 0 5px; /* Add space between buttons */
+    border-color: black; /* Black border */
+    color: black; /* Black text */
+  }
+
+

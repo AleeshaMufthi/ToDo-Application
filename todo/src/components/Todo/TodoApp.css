@@ -1,0 +1,108 @@
+body{
+    background-color: black;
+}
+
+.todo-container{
+    background-color: rgb(84, 84, 84);
+    width: 70vw;
+    margin: 5em auto 2em auto;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+}
+
+.header{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.input-container{
+    background-color: rgb(84, 84, 84);
+    padding: 0.5em;
+    border-radius: 1em;
+    border: 2px solid rgb(220, 159, 79);
+}
+
+.input{
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: 1px;
+    border-radius: 1em;
+    padding: .5em;
+    margin: 1em;
+    width: 80%;
+}
+
+.para{
+    text-align: center;
+}
+
+.list-tasks{
+    font-size: 1.25em;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(84, 84, 84);
+    border: 1px solid bisque;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+.delete-btn{
+   border-radius: 5px;
+   margin: 0px 5px;
+   padding: 3px 5px;
+   border: none;
+   cursor: pointer;
+   color: white;
+   float: right;
+   background-color: rgb(39, 39, 39);
+
+}
+.task-count{
+    width: 100%;
+    color:  rgb(115, 113, 113);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: large;
+}
+.edit-btn {
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(39, 39, 39);
+}
+  
+.save-btn {
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(39, 39, 39);
+}
+
+.error {
+    color: rgb(51, 17, 17);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.edit-btn .fa-edit {
+    font-size: 1em;
+}
+
+.list-tasks.completed {
+    text-decoration: line-through;
+    color: rgb(60, 56, 56);
+}
+
+.task-title .fa-circle, .task-title .fa-check-circle {
+    margin-right: 10px;
+}
